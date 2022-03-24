@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './AddUser.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AddUser from './AddUser.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Router>
+      <Routes> */}
+        {/* <Route path='/AddUser' element={}></Route> */}
+        <AddUser />
+      {/* </Routes>
+    </Router>   */}
   </React.StrictMode>,
   document.getElementById('root')
 );
